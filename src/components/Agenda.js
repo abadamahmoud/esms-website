@@ -1,3 +1,4 @@
+import './Agenda.css';
 import React from 'react'
 
 const Agenda = () => {
