@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css"; // Import the CSS file
+import "./Navbar.css"; 
 import logo from './LOGO_V1.png';
 function Navbar() {
   return (
@@ -13,7 +13,6 @@ function Navbar() {
         <span className="logo-text">The case</span>
       </div>
 
-      {/* Navigation Items */}
       <ul className="nav-items">
         <li>
           <a href="#home">Home</a>
@@ -31,7 +30,7 @@ function Navbar() {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="#registration" className="registration-btn">
+          <a href="/register" className="registration-btn">
             Registration
           </a>
         </li>
