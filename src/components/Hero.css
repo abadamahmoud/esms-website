@@ -1,0 +1,103 @@
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("./Rectangle\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; 
+    color: black;
+    padding: 20px;
+    font-family: "Georgia", serif;
+  }
+  img{
+    max-width: 100%;
+  }
+
+  .hero-logo {
+    margin-bottom: 20px;
+  }
+  
+  .hero-logo-img {
+    position: relative;
+    width: 600px;
+    height: 581px;
+  }
+  .linesimg{
+    position:absolute;
+    left: 883px;
+    top: 201px; 
+    height: 182px;
+    width: 568px;
+  }
+  .linesimg2{
+    position:absolute;
+    left: 525px;
+    top: 425px; 
+    height: 182px;
+    width: 568px;
+  }
+  .linesimg3{
+    position:absolute;
+    left: 800px;
+    top: 665px; 
+    height: 182px;
+    width: 568px;
+  }
+  .linesimg4{
+    position:absolute;
+    left: 100px;
+    top: 850px; 
+    height: 182px;
+    width: 568px;
+  }
+  .linesimg5{
+    position:absolute;
+    left: 1300px;
+    top: 425px;
+    height: 182px;
+    width: 568px;
+  }
+
+  .hero-cta {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  
+  .hero-button {
+    background-color: black;
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 73px;
+    width: 418px;
+    font-weight: bold;
+    position: relative;
+    left: 85px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+  }
+  
+
+  .hero-icon {
+    margin-left: 60px;
+    font-size: 2rem;
+    position: relative;
+    left: 45px;
+  }
+  
