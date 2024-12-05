@@ -1,0 +1,59 @@
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("./Rectangle\ 1.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; 
+    color: black;
+    padding: 20px;
+    font-family: "Georgia", serif;
+  }
+
+  .hero-logo {
+    margin-bottom: 20px;
+  }
+  
+  .hero-logo-img {
+    width: 502px;
+    height: 483px;
+  }
+  
+
+  .hero-cta {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .hero-button {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    height: 73px;
+    width: 418px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
+
+  .hero-icon {
+    margin-left: 20px;
+    font-size: 2rem;
+  }
+  
